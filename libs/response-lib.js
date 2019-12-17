@@ -3,6 +3,7 @@ export function success(body) {
   }
 
   export function failure(body) {
+    console.log(body);
     return buildResponse(500, body);
   }
 
